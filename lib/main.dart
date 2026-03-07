@@ -28,11 +28,11 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 5;
+  int _counter = 0;
 
   void _incrementCounter() {
     setState(() {
-      _counter-=9;
+      _counter+=2;
     });
 
     // Push Request
@@ -66,3 +66,15 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+// 1. git fetch (refresh)
+// 2. git merge
+// 3. git pull (fetch & merge) 1+2
+
+
+// Revert - rollback - ctrl + z
+// Main
+// Small branch - changes
+
+// CI   = Continuous Integration
+// CD = Continuous Deployment
